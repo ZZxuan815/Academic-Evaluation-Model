@@ -1,0 +1,218 @@
+[
+  {
+    "id": "UCI697_015",
+    "actual": "Dropout",
+    "predicted": "Graduate",
+    "correct": false
+  },
+  {
+    "id": "UCI697_008",
+    "actual": "Dropout",
+    "predicted": "Enrolled",
+    "correct": false
+  },
+  {
+    "id": "UCI697_059",
+    "actual": "Dropout",
+    "predicted": "Enrolled",
+    "correct": false
+  },
+  {
+    "id": "UCI697_035",
+    "actual": "Dropout",
+    "predicted": "Dropout",
+    "correct": true
+  },
+  {
+    "id": "UCI697_033",
+    "actual": "Dropout",
+    "predicted": "Dropout",
+    "correct": true
+  },
+  {
+    "id": "UCI697_030",
+    "actual": "Dropout",
+    "predicted": "Dropout",
+    "correct": true
+  },
+  {
+    "id": "UCI697_005",
+    "actual": "Dropout",
+    "predicted": "Dropout",
+    "correct": true
+  },
+  {
+    "id": "UCI697_050",
+    "actual": "Dropout",
+    "predicted": "Dropout",
+    "correct": true
+  },
+  {
+    "id": "UCI697_022",
+    "actual": "Dropout",
+    "predicted": "Graduate",
+    "correct": false
+  },
+  {
+    "id": "UCI697_013",
+    "actual": "Dropout",
+    "predicted": "Dropout",
+    "correct": true
+  },
+  {
+    "id": "UCI697_051",
+    "actual": "Dropout",
+    "predicted": "Dropout",
+    "correct": true
+  },
+  {
+    "id": "UCI697_055",
+    "actual": "Dropout",
+    "predicted": "Enrolled",
+    "correct": false
+  },
+  {
+    "id": "UCI697_097",
+    "actual": "Enrolled",
+    "predicted": "Dropout",
+    "correct": false
+  },
+  {
+    "id": "UCI697_120",
+    "actual": "Enrolled",
+    "predicted": "Dropout",
+    "correct": false
+  },
+  {
+    "id": "UCI697_106",
+    "actual": "Enrolled",
+    "predicted": "Enrolled",
+    "correct": true
+  },
+  {
+    "id": "UCI697_108",
+    "actual": "Enrolled",
+    "predicted": "Enrolled",
+    "correct": true
+  },
+  {
+    "id": "UCI697_062",
+    "actual": "Enrolled",
+    "predicted": "Graduate",
+    "correct": false
+  },
+  {
+    "id": "UCI697_073",
+    "actual": "Enrolled",
+    "predicted": "Graduate",
+    "correct": false
+  },
+  {
+    "id": "UCI697_094",
+    "actual": "Enrolled",
+    "predicted": "Enrolled",
+    "correct": true
+  },
+  {
+    "id": "UCI697_088",
+    "actual": "Enrolled",
+    "predicted": "Dropout",
+    "correct": false
+  },
+  {
+    "id": "UCI697_116",
+    "actual": "Enrolled",
+    "predicted": "Enrolled",
+    "correct": true
+  },
+  {
+    "id": "UCI697_114",
+    "actual": "Enrolled",
+    "predicted": "Dropout",
+    "correct": false
+  },
+  {
+    "id": "UCI697_093",
+    "actual": "Enrolled",
+    "predicted": "Enrolled",
+    "correct": true
+  },
+  {
+    "id": "UCI697_092",
+    "actual": "Enrolled",
+    "predicted": "Dropout",
+    "correct": false
+  },
+  {
+    "id": "UCI697_152",
+    "actual": "Graduate",
+    "predicted": "Graduate",
+    "correct": true
+  },
+  {
+    "id": "UCI697_180",
+    "actual": "Graduate",
+    "predicted": "Graduate",
+    "correct": true
+  },
+  {
+    "id": "UCI697_145",
+    "actual": "Graduate",
+    "predicted": "Graduate",
+    "correct": true
+  },
+  {
+    "id": "UCI697_138",
+    "actual": "Graduate",
+    "predicted": "Graduate",
+    "correct": true
+  },
+  {
+    "id": "UCI697_129",
+    "actual": "Graduate",
+    "predicted": "Graduate",
+    "correct": true
+  },
+  {
+    "id": "UCI697_167",
+    "actual": "Graduate",
+    "predicted": "Graduate",
+    "correct": true
+  },
+  {
+    "id": "UCI697_141",
+    "actual": "Graduate",
+    "predicted": "Dropout",
+    "correct": false
+  },
+  {
+    "id": "UCI697_156",
+    "actual": "Graduate",
+    "predicted": "Graduate",
+    "correct": true
+  },
+  {
+    "id": "UCI697_157",
+    "actual": "Graduate",
+    "predicted": "Graduate",
+    "correct": true
+  },
+  {
+    "id": "UCI697_178",
+    "actual": "Graduate",
+    "predicted": "Graduate",
+    "correct": true
+  },
+  {
+    "id": "UCI697_153",
+    "actual": "Graduate",
+    "predicted": "Graduate",
+    "correct": true
+  },
+  {
+    "id": "UCI697_123",
+    "actual": "Graduate",
+    "predicted": "Enrolled",
+    "correct": false
+  }
+]

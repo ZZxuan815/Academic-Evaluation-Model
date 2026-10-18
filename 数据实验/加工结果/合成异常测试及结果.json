@@ -1,0 +1,305 @@
+[
+  {
+    "name": "正常记录",
+    "synthetic": true,
+    "record": {
+      "学生ID": "UCI697_001",
+      "课程代码": "9238",
+      "第一学期选课数": "6",
+      "第二学期选课数": "6",
+      "第一学期考核次数": "9",
+      "第二学期考核次数": "14",
+      "第一学期通过课程数": "5",
+      "第二学期通过课程数": "2",
+      "第一学期平均成绩": "11.4",
+      "第二学期平均成绩": "13.5",
+      "学业结果": "Dropout"
+    },
+    "expected_error_prefix": null,
+    "observed_errors": [],
+    "passed": true
+  },
+  {
+    "name": "空白",
+    "synthetic": true,
+    "record": {
+      "学生ID": "UCI697_001",
+      "课程代码": "9238",
+      "第一学期选课数": "6",
+      "第二学期选课数": "6",
+      "第一学期考核次数": "9",
+      "第二学期考核次数": "14",
+      "第一学期通过课程数": "5",
+      "第二学期通过课程数": "2",
+      "第一学期平均成绩": "",
+      "第二学期平均成绩": "13.5",
+      "学业结果": "Dropout"
+    },
+    "expected_error_prefix": "invalid_number:",
+    "observed_errors": [
+      "invalid_number:第一学期平均成绩"
+    ],
+    "passed": true
+  },
+  {
+    "name": "缺失",
+    "synthetic": true,
+    "record": {
+      "学生ID": "UCI697_001",
+      "课程代码": "9238",
+      "第一学期选课数": "6",
+      "第二学期选课数": "6",
+      "第一学期考核次数": "9",
+      "第二学期考核次数": "14",
+      "第一学期通过课程数": "5",
+      "第二学期通过课程数": "2",
+      "第一学期平均成绩": null,
+      "第二学期平均成绩": "13.5",
+      "学业结果": "Dropout"
+    },
+    "expected_error_prefix": "invalid_number:",
+    "observed_errors": [
+      "invalid_number:第一学期平均成绩"
+    ],
+    "passed": true
+  },
+  {
+    "name": "非数字",
+    "synthetic": true,
+    "record": {
+      "学生ID": "UCI697_001",
+      "课程代码": "9238",
+      "第一学期选课数": "6",
+      "第二学期选课数": "6",
+      "第一学期考核次数": "9",
+      "第二学期考核次数": "14",
+      "第一学期通过课程数": "5",
+      "第二学期通过课程数": "2",
+      "第一学期平均成绩": "abc",
+      "第二学期平均成绩": "13.5",
+      "学业结果": "Dropout"
+    },
+    "expected_error_prefix": "invalid_number:",
+    "observed_errors": [
+      "invalid_number:第一学期平均成绩"
+    ],
+    "passed": true
+  },
+  {
+    "name": "无穷",
+    "synthetic": true,
+    "record": {
+      "学生ID": "UCI697_001",
+      "课程代码": "9238",
+      "第一学期选课数": "6",
+      "第二学期选课数": "6",
+      "第一学期考核次数": "9",
+      "第二学期考核次数": "14",
+      "第一学期通过课程数": "5",
+      "第二学期通过课程数": "2",
+      "第一学期平均成绩": "Infinity",
+      "第二学期平均成绩": "13.5",
+      "学业结果": "Dropout"
+    },
+    "expected_error_prefix": "invalid_number:",
+    "observed_errors": [
+      "invalid_number:第一学期平均成绩"
+    ],
+    "passed": true
+  },
+  {
+    "name": "非有限数",
+    "synthetic": true,
+    "record": {
+      "学生ID": "UCI697_001",
+      "课程代码": "9238",
+      "第一学期选课数": "6",
+      "第二学期选课数": "6",
+      "第一学期考核次数": "9",
+      "第二学期考核次数": "14",
+      "第一学期通过课程数": "5",
+      "第二学期通过课程数": "2",
+      "第一学期平均成绩": "NaN",
+      "第二学期平均成绩": "13.5",
+      "学业结果": "Dropout"
+    },
+    "expected_error_prefix": "invalid_number:",
+    "observed_errors": [
+      "invalid_number:第一学期平均成绩"
+    ],
+    "passed": true
+  },
+  {
+    "name": "布尔值",
+    "synthetic": true,
+    "record": {
+      "学生ID": "UCI697_001",
+      "课程代码": "9238",
+      "第一学期选课数": "6",
+      "第二学期选课数": "6",
+      "第一学期考核次数": "9",
+      "第二学期考核次数": "14",
+      "第一学期通过课程数": "5",
+      "第二学期通过课程数": "2",
+      "第一学期平均成绩": true,
+      "第二学期平均成绩": "13.5",
+      "学业结果": "Dropout"
+    },
+    "expected_error_prefix": "invalid_number:",
+    "observed_errors": [
+      "invalid_number:第一学期平均成绩"
+    ],
+    "passed": true
+  },
+  {
+    "name": "负数",
+    "synthetic": true,
+    "record": {
+      "学生ID": "UCI697_001",
+      "课程代码": "9238",
+      "第一学期选课数": -1,
+      "第二学期选课数": "6",
+      "第一学期考核次数": "9",
+      "第二学期考核次数": "14",
+      "第一学期通过课程数": "5",
+      "第二学期通过课程数": "2",
+      "第一学期平均成绩": "11.4",
+      "第二学期平均成绩": "13.5",
+      "学业结果": "Dropout"
+    },
+    "expected_error_prefix": "negative:",
+    "observed_errors": [
+      "negative:第一学期选课数",
+      "approved_exceeds_enrolled:第一学期"
+    ],
+    "passed": true
+  },
+  {
+    "name": "小数课程数",
+    "synthetic": true,
+    "record": {
+      "学生ID": "UCI697_001",
+      "课程代码": "9238",
+      "第一学期选课数": 6.5,
+      "第二学期选课数": "6",
+      "第一学期考核次数": "9",
+      "第二学期考核次数": "14",
+      "第一学期通过课程数": "5",
+      "第二学期通过课程数": "2",
+      "第一学期平均成绩": "11.4",
+      "第二学期平均成绩": "13.5",
+      "学业结果": "Dropout"
+    },
+    "expected_error_prefix": "fractional_count:",
+    "observed_errors": [
+      "fractional_count:第一学期选课数"
+    ],
+    "passed": true
+  },
+  {
+    "name": "通过数超过选课数",
+    "synthetic": true,
+    "record": {
+      "学生ID": "UCI697_001",
+      "课程代码": "9238",
+      "第一学期选课数": "6",
+      "第二学期选课数": "6",
+      "第一学期考核次数": "9",
+      "第二学期考核次数": "14",
+      "第一学期通过课程数": 999,
+      "第二学期通过课程数": "2",
+      "第一学期平均成绩": "11.4",
+      "第二学期平均成绩": "13.5",
+      "学业结果": "Dropout"
+    },
+    "expected_error_prefix": "approved_exceeds_enrolled:",
+    "observed_errors": [
+      "approved_exceeds_enrolled:第一学期"
+    ],
+    "passed": true
+  },
+  {
+    "name": "未知结果标签",
+    "synthetic": true,
+    "record": {
+      "学生ID": "UCI697_001",
+      "课程代码": "9238",
+      "第一学期选课数": "6",
+      "第二学期选课数": "6",
+      "第一学期考核次数": "9",
+      "第二学期考核次数": "14",
+      "第一学期通过课程数": "5",
+      "第二学期通过课程数": "2",
+      "第一学期平均成绩": "11.4",
+      "第二学期平均成绩": "13.5",
+      "学业结果": "优秀"
+    },
+    "expected_error_prefix": "unknown_label",
+    "observed_errors": [
+      "unknown_label"
+    ],
+    "passed": true
+  },
+  {
+    "name": "缺少学生编号",
+    "synthetic": true,
+    "record": {
+      "学生ID": "",
+      "课程代码": "9238",
+      "第一学期选课数": "6",
+      "第二学期选课数": "6",
+      "第一学期考核次数": "9",
+      "第二学期考核次数": "14",
+      "第一学期通过课程数": "5",
+      "第二学期通过课程数": "2",
+      "第一学期平均成绩": "11.4",
+      "第二学期平均成绩": "13.5",
+      "学业结果": "Dropout"
+    },
+    "expected_error_prefix": "missing_id",
+    "observed_errors": [
+      "missing_id"
+    ],
+    "passed": true
+  },
+  {
+    "name": "零通过零成绩保留",
+    "synthetic": true,
+    "record": {
+      "学生ID": "UCI697_001",
+      "课程代码": "9238",
+      "第一学期选课数": "6",
+      "第二学期选课数": "6",
+      "第一学期考核次数": "9",
+      "第二学期考核次数": "14",
+      "第一学期通过课程数": 0,
+      "第二学期通过课程数": "2",
+      "第一学期平均成绩": 0,
+      "第二学期平均成绩": "13.5",
+      "学业结果": "Dropout"
+    },
+    "expected_error_prefix": null,
+    "observed_errors": [],
+    "passed": true
+  },
+  {
+    "name": "零选课零通过允许后续通过率为空",
+    "synthetic": true,
+    "record": {
+      "学生ID": "UCI697_001",
+      "课程代码": "9238",
+      "第一学期选课数": 0,
+      "第二学期选课数": "6",
+      "第一学期考核次数": "9",
+      "第二学期考核次数": "14",
+      "第一学期通过课程数": 0,
+      "第二学期通过课程数": "2",
+      "第一学期平均成绩": "11.4",
+      "第二学期平均成绩": "13.5",
+      "学业结果": "Dropout"
+    },
+    "expected_error_prefix": null,
+    "observed_errors": [],
+    "passed": true
+  }
+]

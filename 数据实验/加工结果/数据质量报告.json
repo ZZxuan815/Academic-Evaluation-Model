@@ -1,0 +1,53 @@
+{
+  "rows": 180,
+  "labels": {
+    "Dropout": 60,
+    "Enrolled": 60,
+    "Graduate": 60
+  },
+  "duplicate_ids": 0,
+  "issues": [],
+  "source_sha256": "61e36bd0ece088ded4def12617095c96c6951c1eaad2c64c5b163011a6caf597",
+  "numeric_fields": {
+    "第一学期选课数": {
+      "min": 3,
+      "max": 18,
+      "zeros": 0
+    },
+    "第二学期选课数": {
+      "min": 3,
+      "max": 13,
+      "zeros": 0
+    },
+    "第一学期考核次数": {
+      "min": 4,
+      "max": 24,
+      "zeros": 0
+    },
+    "第二学期考核次数": {
+      "min": 0,
+      "max": 19,
+      "zeros": 1
+    },
+    "第一学期通过课程数": {
+      "min": 0,
+      "max": 18,
+      "zeros": 2
+    },
+    "第二学期通过课程数": {
+      "min": 0,
+      "max": 13,
+      "zeros": 15
+    },
+    "第一学期平均成绩": {
+      "min": 0.0,
+      "max": 16.0,
+      "zeros": 2
+    },
+    "第二学期平均成绩": {
+      "min": 0.0,
+      "max": 15.8,
+      "zeros": 15
+    }
+  }
+}

@@ -1,0 +1,10 @@
+from pathlib import Path
+p=Path('annotate.py');s=p.read_text(encoding='utf-8-sig')
+a=s.index('rules=');b=s.index('\nfor f in',a)
+s=s[:a]+'''rules=[('efficien','Does using less energy per task also reduce total energy use?','efficiency 效率'),('rebound','Cheaper, faster services may be used more, offsetting energy savings.','rebound effect 反弹效应'),('resource','Which scarce materials are needed, and can they be recycled?','resource 资源'),('carbon','How is CO2 estimated? The electricity source changes the result.','carbon footprint 碳足迹'),('cost','Does the reported cost include failed runs and model tuning?','cost 成本'),('policy','Which rule would change behavior, and who would enforce it?','policy 政策'),('energy','Do the energy savings outweigh the electricity used by the technology?','energy 能源'),('accuracy','Is a small accuracy gain worth a large increase in computation?','accuracy 准确率'),('FLOP','FLOPs count operations, but do not directly measure electricity use.','FLOPs 浮点运算次数'),('inclusive','Lower computing costs let researchers with smaller budgets participate.','inclusive 包容性'),('blockchain','Is blockchain needed here? Could a simpler database do the same job?','blockchain 区块链'),('lithium','EV batteries need lithium; cleaner transport still has mining impacts.','lithium 锂'),('sustainab','Consider production, use and disposal, rather than only operation.','sustainability 可持续性'),('experiment','Repeated trials consume resources even when their results are not published.','experiment 实验')]
+''' +s[b:]
+s=s.replace("chosen=[matches[round(j*(len(matches)-1)/max(1,min(12,len(matches))-1))] for j in range(min(12,len(matches)))]","\n   unique={}\n   for item in matches:\n    unique.setdefault(item[2],item)\n   chosen=list(unique.values())[:10]")
+s=s.replace("/12)","/10)").replace("word['text'][:23]","cn.split(' ')[0]")
+s=s.replace("ny-28,cn","ny-38,cn").replace("ny-33,w+133,ny-33","ny-45,w+133,ny-45")
+s=s.replace('annotated_numbered','annotated_revised')
+p.write_text(s,encoding='utf-8')

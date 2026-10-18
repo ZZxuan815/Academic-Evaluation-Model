@@ -1,0 +1,147 @@
+{
+  "formulaVersion": "v2",
+  "realRows": 180,
+  "realCompleteRows": 0,
+  "synthetic": true,
+  "tested": 563580,
+  "invalid": 0,
+  "zeroMismatch": 0,
+  "drops": 910,
+  "maxDrop": 0.09800000000000608,
+  "worst": {
+    "selected": [
+      "grade",
+      "attendance",
+      "study",
+      "sleep"
+    ],
+    "alpha": 5,
+    "data": {
+      "grade": 100,
+      "previous": 70,
+      "attendance": 100,
+      "study": 4,
+      "sleep": 0,
+      "practice": 3
+    },
+    "previousGrade": 99,
+    "previousScore": 50.098000000000006,
+    "currentScore": 50
+  },
+  "maxGap": 33.33333333333333,
+  "maxLocalJump": 7.847826282159076e-7,
+  "examples": [
+    {
+      "grade": 40,
+      "data": {
+        "grade": 40,
+        "previous": 70,
+        "attendance": 100,
+        "study": 4,
+        "sleep": 0,
+        "practice": 3
+      },
+      "selected": [
+        "attendance",
+        "grade",
+        "sleep",
+        "study"
+      ],
+      "mode": "variable",
+      "alpha": 5,
+      "weights": [
+        0.17,
+        0.37,
+        0.29,
+        0.17
+      ],
+      "score": 48.8,
+      "formulaVersion": "v2",
+      "group": "[[\"attendance\",\"grade\",\"sleep\",\"study\"],\"variable\",5,\"v2\"]"
+    },
+    {
+      "grade": 60,
+      "data": {
+        "grade": 60,
+        "previous": 70,
+        "attendance": 100,
+        "study": 4,
+        "sleep": 0,
+        "practice": 3
+      },
+      "selected": [
+        "attendance",
+        "grade",
+        "sleep",
+        "study"
+      ],
+      "mode": "variable",
+      "alpha": 5,
+      "weights": [
+        0.15500000000000003,
+        0.33,
+        0.36,
+        0.15500000000000003
+      ],
+      "score": 50.80000000000001,
+      "formulaVersion": "v2",
+      "group": "[[\"attendance\",\"grade\",\"sleep\",\"study\"],\"variable\",5,\"v2\"]"
+    },
+    {
+      "grade": 80,
+      "data": {
+        "grade": 80,
+        "previous": 70,
+        "attendance": 100,
+        "study": 4,
+        "sleep": 0,
+        "practice": 3
+      },
+      "selected": [
+        "attendance",
+        "grade",
+        "sleep",
+        "study"
+      ],
+      "mode": "variable",
+      "alpha": 5,
+      "weights": [
+        0.14000000000000004,
+        0.29000000000000004,
+        0.43,
+        0.14000000000000004
+      ],
+      "score": 51.2,
+      "formulaVersion": "v2",
+      "group": "[[\"attendance\",\"grade\",\"sleep\",\"study\"],\"variable\",5,\"v2\"]"
+    },
+    {
+      "grade": 100,
+      "data": {
+        "grade": 100,
+        "previous": 70,
+        "attendance": 100,
+        "study": 4,
+        "sleep": 0,
+        "practice": 3
+      },
+      "selected": [
+        "attendance",
+        "grade",
+        "sleep",
+        "study"
+      ],
+      "mode": "variable",
+      "alpha": 5,
+      "weights": [
+        0.125,
+        0.25,
+        0.5,
+        0.125
+      ],
+      "score": 50,
+      "formulaVersion": "v2",
+      "group": "[[\"attendance\",\"grade\",\"sleep\",\"study\"],\"variable\",5,\"v2\"]"
+    }
+  ]
+}

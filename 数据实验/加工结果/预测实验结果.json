@@ -1,0 +1,104 @@
+{
+  "seed": 20261018,
+  "train_count": 144,
+  "test_count": 36,
+  "features": [
+    "第一学期选课数",
+    "第一学期考核次数",
+    "第一学期通过课程数",
+    "第一学期平均成绩"
+  ],
+  "model": "standardized nearest centroid",
+  "baseline": {
+    "accuracy": 0.3333333333333333,
+    "macro_f1": 0.16666666666666666,
+    "per_class": {
+      "Dropout": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "f1": 0.5,
+        "support": 12
+      },
+      "Enrolled": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 12
+      },
+      "Graduate": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0,
+        "support": 12
+      }
+    },
+    "confusion_matrix_true_rows_predicted_columns": [
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        12,
+        0,
+        0
+      ],
+      [
+        12,
+        0,
+        0
+      ]
+    ],
+    "label_order": [
+      "Dropout",
+      "Enrolled",
+      "Graduate"
+    ]
+  },
+  "experiment": {
+    "accuracy": 0.6111111111111112,
+    "macro_f1": 0.6018070818070818,
+    "per_class": {
+      "Dropout": {
+        "precision": 0.5384615384615384,
+        "recall": 0.5833333333333334,
+        "f1": 0.5599999999999999,
+        "support": 12
+      },
+      "Enrolled": {
+        "precision": 0.5555555555555556,
+        "recall": 0.4166666666666667,
+        "f1": 0.4761904761904762,
+        "support": 12
+      },
+      "Graduate": {
+        "precision": 0.7142857142857143,
+        "recall": 0.8333333333333334,
+        "f1": 0.7692307692307692,
+        "support": 12
+      }
+    },
+    "confusion_matrix_true_rows_predicted_columns": [
+      [
+        7,
+        3,
+        2
+      ],
+      [
+        5,
+        5,
+        2
+      ],
+      [
+        1,
+        1,
+        10
+      ]
+    ],
+    "label_order": [
+      "Dropout",
+      "Enrolled",
+      "Graduate"
+    ]
+  }
+}

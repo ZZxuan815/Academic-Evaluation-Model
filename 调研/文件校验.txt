@@ -1,0 +1,8 @@
+[10] 范圣法, 张先梅, 虞慧群. 基于关联规则与聚类分析的课程评价技术.pdf SHA256 310ce9370e9368a51b6c9cb7065c4901eeb82785783a547581adf6c6633ab9f6
+[1] McNeish D.2024，心理测量，总分求和计分的缺陷.pdf SHA256 44ebb19ddd7b470051b5fc3ec537d2195199664e659a3ded07c688b974cf80df
+[2] Xiong & Li.2026，AI 教育测评综述.pdf SHA256 1e52ec7f37a1f3da5cced11df67bee3d5d5c810d9824d3120f71488dab4b6df7
+[3] 郭亚军，2023，线性无量纲化评价.pdf SHA256 59caa44ae5e13c051b69353da85a99f938c9568916addd81c961336c5286dd18
+[4] 俞立平 2022，线性评价伪权重.pdf SHA256 59caa44ae5e13c051b69353da85a99f938c9568916addd81c961336c5286dd18
+[6] 余亮, 侯梦瑶. 数智赋能大学生综合素质评价的价值定位、模型构建与实施路径.pdf SHA256 320c3f39b12fcc1c342348b9dd8223c7f0efefff8ffe314f8089b6eaf3e1bbfe
+[9] 任鸽, 吴猛, 汗古丽·力提甫, 杨勇. 基于改进Apriori算法的高校课程预警规则库构建.pdf SHA256 37ea82ad12c4f4fd9a0a7e1dd666fc407dbd5b6667a4b02e758fa877ef9d86b4
+学业评估模型与个性发展激励机制研究与应用-周宇-大创项目立项报告HJ签字20260608.pdf SHA256 213a7a53a2cc9abda8ecc68f78d083a47e579c55157e8b1f32e30b660394fe80
